@@ -84,12 +84,12 @@ def display_visits():
         </style>
     </head>
     <body>
-        <h1>Visit Records</h1>
+        <h1>Table Counter</h1>
         <table>
             <tr>
                 <th>ID</th>
-                <th>Visit Time</th>
-                <th>User Agent</th>
+                <th>Datetime</th>
+                <th>Client Info</th>
             </tr>
             {% for record in visit_records %}
             <tr>
